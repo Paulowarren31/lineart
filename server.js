@@ -6,7 +6,7 @@ var config = require('./static/js/configuratrion.js');
 
 var app = express();
 
-mongoose.connect('mongodb://localhost/test');
+mongoose.connect('mongodb://198.199.84.144/test');
 var db = mongoose.connection;
 var Drawing;
 
