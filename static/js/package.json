@@ -1,0 +1,14 @@
+{
+  "name": "dailyapp",
+  "version": "1.0.0",
+  "description": "Paulo Warren's daily application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paulo Warren",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}

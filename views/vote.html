@@ -1,0 +1,26 @@
+<div class="jumbotron title">
+    <h2>Vote!</h2>
+    <p>Please vote for your favorite drawings here!</p>
+</div>
+<div class="panel panel-default" ng-init="loadAllDrawings()">
+
+    <div class="panel-body">
+        <div class="row">
+            <div ng-repeat="drawing in allDrawings">
+                <div class="col-lg-4">
+                    <canvas class="grey-background" style="width:100%;height:100%;"id="{{drawing.id}}" resize></canvas>
+                    <p class="pull-left title" style="color:white;">{{drawing.title}}</p>
+                    <p class="pull-right title" style="color:white;">{{drawing.votes}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel-footer">
+        <uib-pagination class="title"
+          ng-model="currentPage"
+          total-items="todos.length"
+          max-size="maxSize"  
+          boundary-links="true">
+        </uib-pagination>
+    </div>
+</div>

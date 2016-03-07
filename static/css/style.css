@@ -1,0 +1,103 @@
+body{
+	padding-top: 8%;
+	font-family: 'Lora', serif;
+	background: url('../img/old_moon.png');
+}
+
+#topnav{
+	-webkit-box-shadow: 0 0 3px 2px #999;
+}
+.dark-background{
+	background: #44463D;
+}
+.grey-background{
+	background: #DBDBDB;
+}
+
+.blue{
+	background: #003366;	
+	color: #C7C1C1;
+}
+.blue-border{
+	border-color: #003366;
+}
+
+.panel-default > .panel-heading{
+
+	background-color: #003366;	
+	color: white;
+}
+
+.jumbotron{
+	padding-bottom: 2%;
+}
+.nav-title{
+	color: white;
+	padding-left: 41.5%;
+}
+.writing{
+	font-size: large;
+}
+
+.title{
+	font-family: 'Open Sans', serif;
+}
+.nav-title{
+
+	color: white !important;
+}
+.nav-title:hover{
+	color: grey !important;
+}
+.link{
+	font-size: x-large;
+}
+.droid{
+	font-family: 'Droid Serif', serif;
+}
+.center{
+	text-align: center;
+}
+.justified{
+	padding-right: 6%;
+	text-align: justify;
+}
+
+.thumbnail.right-caption{
+	float: left;
+}
+.thumbnail.right-caption > img{
+	float: left;
+}
+
+.btn-default{
+	background-color: #44463D; 
+	color: white;
+}
+.btn-default:hover{
+	background-color: #ABADA3;
+	color: black;
+}
+
+.form-title{
+	padding: 1%;
+	padding-left: 3%;
+}
+
+.glyphicon-refresh-animate {
+	-animation: spin .7s infinite linear;
+	-webkit-animation: spin2 .7s infinite linear;
+
+}
+
+@-webkit-keyframes spin2 {
+	from { -webkit-transform: rotate(0deg); }
+	to { -webkit-transform: rotate(360deg); }
+
+}
+
+@keyframes spin {
+	from { transform: scale(1) rotate(0deg); }
+	to { transform: scale(1) rotate(360deg); }
+
+}

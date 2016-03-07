@@ -1,0 +1,15 @@
+<div class="jumbotron title">
+    <h2>Top Drawings!</h2>
+    <p>Here is the top 12 drawings of all time. Make sure to vote for drawings and they might show up here!</p>
+</div>
+<div class="well dark-background" ng-init="loadTopDrawings()">
+    <div class="row">
+        <div ng-repeat="drawing in topDraw">
+            <div class="col-lg-4">
+                <canvas class="grey-background" style="width:100%;height:100%;"id="{{drawing.id}}" resize></canvas>
+                <p class="pull-left title" style="color:white;">{{drawing.title}}</p>
+                <p class="pull-right title" style="color:white;">{{drawing.votes}}</p>
+            </div>
+        </div>
+    </div>
+</div>
